@@ -1,6 +1,3 @@
-/**
- * search-ng v3.0 - Production Search Library
- */
 
 class search-ng {
   constructor(config = {}) {
