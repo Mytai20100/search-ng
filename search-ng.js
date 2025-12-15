@@ -1,5 +1,5 @@
 
-class search-ng {
+class searchng {
   constructor(config = {}) {
     this.config = {
       workerTimeout: 15000,
@@ -635,8 +635,8 @@ class search-ng {
 }
 
 if (typeof module !== 'undefined' && module.exports) {
-  module.exports = search-ng;
+  module.exports = searchng;
 }
 if (typeof window !== 'undefined') {
-  window.search-ng = search-ng;
+  window.searchng = searchng;
 }
